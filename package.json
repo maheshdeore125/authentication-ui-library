@@ -1,6 +1,6 @@
 {
   "name": "authentication-ui-library",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "This library provides social authentication using Magic Link SDK",
   "scripts": {
     "rollup": "rollup -c"
@@ -22,5 +22,10 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@magic-ext/oauth": "^2.1.1",
+    "@magic-sdk/types": "^7.1.1",
+    "magic-sdk": "^8.1.1"
+  }
 }
